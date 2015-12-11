@@ -1,0 +1,17 @@
+git est un controleur de source
+
+
+git config --golal user.username "username"
+git config --golal user.email "email"
+
+creer un nouveau projet sous git
+se placer a la racine du projet,
+
+git init
+>Dépôt Git vide initialisé dans /home/hypervisor/ServerWatch/.git/
+
+git status
+
+git add <file>
+
+git commit --message "description"
