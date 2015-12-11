@@ -1,6 +1,5 @@
 git est un controleur de source
 
-
 git config --golal user.username "username"
 git config --golal user.email "email"
 
@@ -31,3 +30,13 @@ git branch
 Pour changer de branche, Note : cela change le working directory en metant la derniere version des fichier de la branche.
 git checkout maBranche
 
+pour fusioner les changement d'une branche sur la branche master
+se mettre sur la branche master, puis
+git merge maBranche
+deux possibilité :
+-la fusion se passe sans problème
+-un conflit apparait qui demande une intervention manuel :
+	-ouvrir le fichier mergé en attente de resolution du conflit
+	-effectuer les correction
+	-git add
+	-git commit
