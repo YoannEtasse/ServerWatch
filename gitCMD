@@ -15,3 +15,6 @@ git status
 git add <file>
 
 git commit --message "description"
+
+le maitre écrit un truc sur le sens de la vie
+"les noix de coco sont amour"
