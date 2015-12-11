@@ -28,7 +28,7 @@ git branch
 >  maBranche
 >* master
 
-Pour changer de branche
+Pour changer de branche, Note : cela change le working directory en metant la derniere version des fichier de la branche.
 git checkout maBranche
 
 la grosse connerie est ici
