@@ -6,12 +6,29 @@ git config --golal user.email "email"
 
 creer un nouveau projet sous git
 se placer a la racine du projet,
-
 git init
 >Dépôt Git vide initialisé dans /home/hypervisor/ServerWatch/.git/
 
+pour verifier l'etat du working directory, s'il y a eu des changements
 git status
 
 git add <file>
 
 git commit --message "description"
+
+pour verifier les difference apporté à un fichier versionné
+git diff
+
+git log
+
+pour créer une branche différente de la principale (master)
+git branch maBranche
+
+git branch
+>  maBranche
+>* master
+
+Pour changer de branche
+git checkout maBranche
+
+
