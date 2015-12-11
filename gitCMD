@@ -40,3 +40,16 @@ deux possibilité :
 	-effectuer les correction
 	-git add
 	-git commit
+
+pour supprimer une branche:
+git branch -d maBranche
+si la branche n'est pas mergé pour la supprimer quand meme
+git branch -D maBranche
+
+----------------------------------------------------
+
+Pour pousser notre git local sur github.
+git remote add origin https://github.com/YoannEtasse/ServerWatch.git
+git remote -v
+
+git push origin master
